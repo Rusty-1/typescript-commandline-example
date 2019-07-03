@@ -1,0 +1,23 @@
+{
+  "name": "typescript-commandline-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "debug": "tsc && node --nolazy --inspect-brk=9229 dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaun Rust",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.0.8",
+    "azure-storage": "^2.10.3",
+    "commander": "^2.20.0",
+    "simple-git": "^1.118.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.17.0"
+  }
+}

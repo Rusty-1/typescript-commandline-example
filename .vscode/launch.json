@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/dist/app.js",
+            "internalConsoleOptions": "openOnSessionStart",
+            "args": [
+                "-d",
+                "deploy",
+                "development"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug: version",
+            "program": "${workspaceFolder}/dist/app.js",
+            "internalConsoleOptions": "openOnSessionStart",
+            "args": [
+                "-d",
+                "version"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+
+    ]
+}
