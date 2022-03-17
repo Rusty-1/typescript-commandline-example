@@ -14,7 +14,7 @@
     "@types/node": "^12.0.8",
     "azure-storage": "^2.10.3",
     "commander": "^2.20.0",
-    "simple-git": "^1.118.0",
+    "simple-git": "^3.3.0",
     "typescript": "^3.5.2"
   },
   "devDependencies": {
